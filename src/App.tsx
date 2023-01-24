@@ -21,103 +21,103 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
         <path
           fill={highlights.includes("a") ? "yellow" : "#E0E2ED"}
           stroke="#C6BCC0"
-          stroke-width="1"
+          strokeWidth="1"
           d="M 250 250 L490 250 L 490 388.564 z"
-          clip-path="url(#clip1)"
+          clipPath="url(#clip1)"
           transform="rotate(0,250,250)"
         />
         <path
           fill={highlights.includes("b") ? "yellow" : "#E0E2ED"}
           stroke="#C6BCC0"
-          stroke-width="1"
+          strokeWidth="1"
           d="M 250 250 L490 250 L 490 388.564 z"
-          clip-path="url(#clip1)"
+          clipPath="url(#clip1)"
           transform="rotate(60,250,250)"
         />
         <path
           fill={highlights.includes("c#") ? "yellow" : "#E0E2ED"}
           stroke="#C6BCC0"
-          stroke-width="1"
+          strokeWidth="1"
           d="M 250 250 L490 250 L 490 388.564 z"
-          clip-path="url(#clip1)"
+          clipPath="url(#clip1)"
           transform="rotate(120,250,250)"
         />
         <path
           fill={highlights.includes("d#") ? "yellow" : "#E0E2ED"}
           stroke="#C6BCC0"
-          stroke-width="1"
+          strokeWidth="1"
           d="M 250 250 L490 250 L 490 388.564 z"
-          clip-path="url(#clip1)"
+          clipPath="url(#clip1)"
           transform="rotate(180,250,250)"
         />
         <path
           fill={highlights.includes("f") ? "yellow" : "#E0E2ED"}
           stroke="#C6BCC0"
-          stroke-width="1"
+          strokeWidth="1"
           d="M 250 250 L490 250 L 490 388.564 z"
-          clip-path="url(#clip1)"
+          clipPath="url(#clip1)"
           transform="rotate(240,250,250)"
         />
         <path
           fill={highlights.includes("g") ? "yellow" : "#E0E2ED"}
           stroke="#C6BCC0"
-          stroke-width="1"
+          strokeWidth="1"
           d="M 250 250 L490 250 L 490 388.564 z"
-          clip-path="url(#clip1)"
+          clipPath="url(#clip1)"
           transform="rotate(300,250,250)"
         />
 
         <path
           fill={highlights.includes("e") ? "yellow" : "transparent"}
           stroke="#C6BCC0"
-          stroke-width="1"
+          strokeWidth="1"
           d="M 250 250 L490 250 L 490 388.564 z"
-          clip-path="url(#clip1)"
+          clipPath="url(#clip1)"
           transform="rotate(30,250,250)"
         />
 
         <path
           fill={highlights.includes("f#") ? "yellow" : "transparent"}
           stroke="#C6BCC0"
-          stroke-width="1"
+          strokeWidth="1"
           d="M 250 250 L490 250 L 490 388.564 z"
-          clip-path="url(#clip1)"
+          clipPath="url(#clip1)"
           transform="rotate(90,250,250)"
         />
 
         <path
           fill={highlights.includes("g#") ? "yellow" : "transparent"}
           stroke="#C6BCC0"
-          stroke-width="1"
+          strokeWidth="1"
           d="M 250 250 L490 250 L 490 388.564 z"
-          clip-path="url(#clip1)"
+          clipPath="url(#clip1)"
           transform="rotate(150,250,250)"
         />
 
         <path
           fill={highlights.includes("a#") ? "yellow" : "transparent"}
           stroke="#C6BCC0"
-          stroke-width="1"
+          strokeWidth="1"
           d="M 250 250 L490 250 L 490 388.564 z"
-          clip-path="url(#clip1)"
+          clipPath="url(#clip1)"
           transform="rotate(210,250,250)"
         />
 
         <path
           fill={highlights.includes("c") ? "yellow" : "transparent"}
           stroke="#C6BCC0"
-          stroke-width="1"
+          strokeWidth="1"
           d="M 250 250 L490 250 L 490 388.564 z"
-          clip-path="url(#clip1)"
+          clipPath="url(#clip1)"
           transform="rotate(270,250,250)"
         />
 
         <path
           fill={highlights.includes("d") ? "yellow" : "transparent"}
           stroke="#C6BCC0"
-          stroke-width="1"
+          strokeWidth="1"
           d="M 250 250 L490 250 L 490 388.564 z"
-          clip-path="url(#clip1)"
+          clipPath="url(#clip1)"
           transform="rotate(330,250,250)"
         />
 
@@ -127,7 +127,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="32"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           A
         </text>
@@ -137,7 +137,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="24"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           f&#9839;
         </text>
@@ -147,7 +147,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="32"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           E
         </text>
@@ -157,7 +157,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="24"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           c&#9839;
         </text>
@@ -167,7 +167,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="32"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           B
         </text>
@@ -177,7 +177,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="24"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           g&#9839;
         </text>
@@ -187,7 +187,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="32"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           F&#9839;/G&#9837;
         </text>
@@ -197,7 +197,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="24"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           e&#9837;/d&#9839;
         </text>
@@ -207,7 +207,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="32"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           D&#9837;
         </text>
@@ -217,7 +217,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="24"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           b&#9837;
         </text>
@@ -227,7 +227,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="32"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           A&#9837;
         </text>
@@ -237,7 +237,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="24"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           f
         </text>
@@ -247,7 +247,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="32"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           E&#9837;
         </text>
@@ -257,7 +257,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="24"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           c
         </text>
@@ -267,7 +267,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="32"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           B&#9837;
         </text>
@@ -277,7 +277,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="24"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           g
         </text>
@@ -287,7 +287,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="32"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           F
         </text>
@@ -297,7 +297,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="24"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           d
         </text>
@@ -307,7 +307,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="32"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           C
         </text>
@@ -317,7 +317,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="24"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           a
         </text>
@@ -327,7 +327,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="32"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           G
         </text>
@@ -337,7 +337,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="24"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           e
         </text>
@@ -347,7 +347,7 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="32"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           D
         </text>
@@ -357,19 +357,56 @@ const CircleSVG: React.FC<{ highlights: string[] }> = ({ highlights }) => {
           font-family="Arial"
           font-size="24"
           fill="#000000"
-          text-anchor="middle"
+          textAnchor="middle"
         >
           b
         </text>
         <circle
           fill="none"
           stroke="#000000"
-          stroke-width="2"
+          strokeWidth="2"
           cx="250"
           cy="250"
           r="240"
         />
       </g>
+    </svg>
+  );
+};
+
+const SineWaves: React.FC<{ frequencies: number[]; animate?: boolean }> = ({
+  frequencies,
+  animate = false,
+}) => {
+  const [time, setTime] = useState(performance.now() / 200);
+
+  const range = [0, 30];
+  const dx = 0.1;
+  const scaleBy = 220;
+  const points = [];
+  let x = range[0];
+  while (x < range[1]) {
+    let y = 0;
+    for (const f of frequencies) {
+      y += Math.sin((f / scaleBy) * (x + time));
+    }
+    points.push([x, y]);
+    x += dx;
+  }
+
+  useEffect(() => {
+    if (animate) {
+      const id = setInterval(() => setTime(performance.now() / 200), 30);
+      return () => clearInterval(id);
+    }
+  }, [animate]);
+  return (
+    <svg height="80px">
+      <polyline
+        points={points.map(([x, y]) => `${x * 10},${y * 10 + 40}`).join(" ")}
+        stroke="black"
+        fill="none"
+      />
     </svg>
   );
 };
@@ -534,6 +571,7 @@ const NoteDetails: React.FC<{ notes: number[] }> = ({ notes }) => {
           <td>Note Name</td>
           <td>Frequency</td>
           <td>Tonic Ratio</td>
+          <td>Frequency Graph</td>
         </tr>
       </thead>
       <tbody>
@@ -550,9 +588,25 @@ const NoteDetails: React.FC<{ notes: number[] }> = ({ notes }) => {
                     100
                 ) / 100}
               </td>
+              <td>
+                <SineWaves frequencies={[midiNote.toFrequency()]} animate />
+              </td>
             </tr>
           );
         })}
+        {notes.length > 0 ? (
+          <tr>
+            <td>Combined</td>
+            <td />
+            <td />
+            <td>
+              <SineWaves
+                frequencies={notes.map((x) => Midi(x).toFrequency())}
+                animate
+              />
+            </td>
+          </tr>
+        ) : null}
       </tbody>
     </table>
   );
@@ -560,6 +614,27 @@ const NoteDetails: React.FC<{ notes: number[] }> = ({ notes }) => {
 
 const simpleNote = (midi: number) =>
   Midi(midi).toNote().replace(/[0-9]/g, "").toLowerCase();
+
+const keyToNum = (key: string) => {
+  switch (key) {
+    case "KeyA":
+      return 60;
+
+    case "KeyS":
+      return 62;
+
+    case "KeyD":
+      return 64;
+    case "KeyG":
+      return 67;
+    case "KeyT":
+      return 66;
+    case "KeyK":
+      return 72;
+    default:
+      return -1;
+  }
+};
 
 function App() {
   const [notes, setNotes] = useState<number[]>([]);
@@ -571,23 +646,45 @@ function App() {
     }
   }, [started]);
 
+  // Keyboard based events
+  useEffect(() => {
+    window.addEventListener("keydown", (event) => {
+      const num = keyToNum(event.code);
+      if (num !== -1) {
+        setNotes((old) => {
+          if (old.includes(num)) {
+            return old;
+          }
+          return [...old, num];
+        });
+      }
+    });
+
+    window.addEventListener("keyup", (event) => {
+      const num = keyToNum(event.code);
+      if (num !== -1) {
+        setNotes((old) => old.filter((x) => x !== num));
+      }
+    });
+  }, []);
+
   return (
     <div>
       {started ? (
-        <div>
-          <div style={{ height: "70px" }}>
-            <NoteDetails notes={notes} />
+        <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", flex: 1, justifyContent: "center" }}>
+            <div>
+              <NoteDetails notes={notes} />
+            </div>
           </div>
           <div
             style={{
               display: "flex",
-              gap: "60px",
-              width: "100vw",
-              justifyContent: "space-around",
+              flexDirection: "column",
+              alignItems: "center",
             }}
           >
             <PianoSVG highlights={notes.map(simpleNote)} />
-
             <CircleSVG highlights={notes.map(simpleNote)} />
           </div>
         </div>
